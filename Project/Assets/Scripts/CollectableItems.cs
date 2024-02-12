@@ -15,5 +15,11 @@ public class CollectableItems : MonoBehaviour
             fruit++;
             Health.text = "Health: " + fruit;
         }
+        else if (collision.gameObject.CompareTag("BadCollectable")) 
+        {
+            Destroy(collision.gameObject);
+            fruit--;
+            Health.text = "Health: " + fruit;
+        }
     }
 }
