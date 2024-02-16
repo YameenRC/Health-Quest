@@ -5,21 +5,25 @@ using UnityEngine.UI;
 
 public class CollectableItems : MonoBehaviour
 {
-    private int fruit = 3;
+    private int health = 1;
     [SerializeField] private Text Health;
+    [SerializeField] private AudioSource GoodItemSound;
+    [SerializeField] private AudioSource BadItemSound;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Collectable")) 
         {
+            GoodItemSound.Play();
             Destroy(collision.gameObject);
-            fruit++;
-            Health.text = "Health: " + fruit;
+            health++;
+            Health.text = "Health: " + health;
         }
         else if (collision.gameObject.CompareTag("BadCollectable")) 
         {
+            BadItemSound.Play();
             Destroy(collision.gameObject);
-            fruit--;
-            Health.text = "Health: " + fruit;
+            health--;
+            Health.text = "Health: " + health;
         }
     }
 }
