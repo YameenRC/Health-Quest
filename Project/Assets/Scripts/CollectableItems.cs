@@ -23,7 +23,7 @@ public class CollectableItems : MonoBehaviour
             BadItemSound.Play();
             Destroy(collision.gameObject);
             health--;
-            Health.text = "Health: " + health;
+            Health.text = "Health : " + health;
         }
     }
 }
