@@ -79,4 +79,19 @@ public class PlayerMovement : MonoBehaviour
     {
         return Physics2D.BoxCast(col.bounds.center, col.bounds.size, 0f, Vector2.down, .1f, JumpFromGround);
     }
+
+    public void SetPowerUp(bool isPoweredUp)
+    {
+        if (isPoweredUp)
+        {
+            speed *= 1.5f; // Double the speed
+            jumpForce *= 1.5f; // Increase jump force
+        }
+        else
+        {
+            // Reset the speed and jump force to their original values
+            speed /= 1.5f;
+            jumpForce /= 1.5f;
+        }
+    }
 }

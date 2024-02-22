@@ -6,24 +6,40 @@ using UnityEngine.UI;
 public class CollectableItems : MonoBehaviour
 {
     private int health = 1;
-    [SerializeField] private Text Health;
-    [SerializeField] private AudioSource GoodItemSound;
-    [SerializeField] private AudioSource BadItemSound;
+    [SerializeField] private Text healthText;
+    [SerializeField] private AudioSource goodItemSound;
+    [SerializeField] private AudioSource badItemSound;
+    [SerializeField] private AudioSource PowerUpSound;
+    [SerializeField] private PlayerMovement playerMovement; // Reference to PlayerMovement script
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Collectable")) 
+        if (collision.CompareTag("Collectable"))
         {
-            GoodItemSound.Play();
+            goodItemSound.Play();
             Destroy(collision.gameObject);
             health++;
-            Health.text = "Health: " + health;
+            healthText.text = "Health: " + health;
         }
-        else if (collision.gameObject.CompareTag("BadCollectable")) 
+        else if (collision.CompareTag("BadCollectable"))
         {
-            BadItemSound.Play();
+            badItemSound.Play();
             Destroy(collision.gameObject);
             health--;
-            Health.text = "Health : " + health;
+            healthText.text = "Health : " + health;
         }
+        else if (collision.CompareTag("PowerUpCollectable"))
+        {
+            goodItemSound.Play();
+            Destroy(collision.gameObject);
+            StartCoroutine(PowerUpEffect());
+        }
+    }
+
+    IEnumerator PowerUpEffect()
+    {
+        playerMovement.SetPowerUp(true); // Activate power-up in PlayerMovement script
+        yield return new WaitForSeconds(5f); // Wait for 5 seconds
+        playerMovement.SetPowerUp(false); // Deactivate power-up after 5 seconds
     }
 }
