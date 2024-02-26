@@ -19,7 +19,9 @@ public class CollectableItems : MonoBehaviour
             goodItemSound.Play();
             Destroy(collision.gameObject);
             health++;
-            healthText.text = "Health: " + health;
+            Debug.Log("Health increased: " + health); // Add debug log
+            healthText.text = "Health : " + health;
+            Debug.Log("Health text updated."); // Add debug log
         }
         else if (collision.CompareTag("BadCollectable"))
         {
@@ -30,7 +32,7 @@ public class CollectableItems : MonoBehaviour
         }
         else if (collision.CompareTag("PowerUpCollectable"))
         {
-            goodItemSound.Play();
+            PowerUpSound.Play();
             Destroy(collision.gameObject);
             StartCoroutine(PowerUpEffect());
         }
