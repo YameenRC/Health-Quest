@@ -355,7 +355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8409056720176314931, guid: 7729c0318d6c9784087b1327dc51fdc1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 64.80416
+      value: 65.29
       objectReference: {fileID: 0}
     - target: {fileID: 8409056720176314931, guid: 7729c0318d6c9784087b1327dc51fdc1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -48774,8 +48774,8 @@ Tilemap:
   - first: {x: -62, y: -1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 33
-      m_TileSpriteIndex: 33
+      m_TileIndex: 27
+      m_TileSpriteIndex: 27
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -95907,7 +95907,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 75e8c23a650080340a357346b6ad3d27, type: 2}
   - m_RefCount: 1000
     m_Data: {fileID: 11400000, guid: f809b4febf7c22244a33895100f9b129, type: 2}
-  - m_RefCount: 1056
+  - m_RefCount: 1057
     m_Data: {fileID: 11400000, guid: 9cff90f48c54fd34c9cbb4c2b610ef4f, type: 2}
   - m_RefCount: 1013
     m_Data: {fileID: 11400000, guid: 2c98e5025f6dd8547bbfa389f7c7e9e3, type: 2}
@@ -95919,7 +95919,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 1ca0bef2ec898e34a83ee3f89d1b7a68, type: 2}
   - m_RefCount: 1053
     m_Data: {fileID: 11400000, guid: cf1be9e1a9a61f6479270af2902534e6, type: 2}
-  - m_RefCount: 1093
+  - m_RefCount: 1092
     m_Data: {fileID: 11400000, guid: 18a8983776d19ed44a047801cf4eee3f, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
@@ -95976,7 +95976,7 @@ Tilemap:
     m_Data: {fileID: 1673338674, guid: 413986c4a668c374d8de72a47621b531, type: 3}
   - m_RefCount: 1000
     m_Data: {fileID: 271206871, guid: 413986c4a668c374d8de72a47621b531, type: 3}
-  - m_RefCount: 1056
+  - m_RefCount: 1057
     m_Data: {fileID: -445740621, guid: 413986c4a668c374d8de72a47621b531, type: 3}
   - m_RefCount: 1013
     m_Data: {fileID: -16852082, guid: 413986c4a668c374d8de72a47621b531, type: 3}
@@ -95988,7 +95988,7 @@ Tilemap:
     m_Data: {fileID: -1324225994, guid: 413986c4a668c374d8de72a47621b531, type: 3}
   - m_RefCount: 1053
     m_Data: {fileID: 1749551037, guid: 413986c4a668c374d8de72a47621b531, type: 3}
-  - m_RefCount: 1093
+  - m_RefCount: 1092
     m_Data: {fileID: -1104836168, guid: 413986c4a668c374d8de72a47621b531, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 9381
@@ -97530,37 +97530,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8409056720176314931, guid: 7729c0318d6c9784087b1327dc51fdc1, type: 3}
   m_PrefabInstance: {fileID: 588567293}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1064151819
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1064151820}
-  m_Layer: 0
-  m_Name: MovingPlatforms
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1064151820
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1064151819}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.553037, y: -24.379944, z: 4.671374}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1064366999
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -106755,7 +106724,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2296593071965467066, guid: 544cdc3df55cb4b4585444c9edca992b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -238.44655
+      value: -237.97
       objectReference: {fileID: 0}
     - target: {fileID: 2296593071965467066, guid: 544cdc3df55cb4b4585444c9edca992b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -109328,7 +109297,6 @@ SceneRoots:
   - {fileID: 10357554}
   - {fileID: 842703108}
   - {fileID: 1489404803}
-  - {fileID: 1064151820}
   - {fileID: 989010399}
   - {fileID: 2039473250}
   - {fileID: 1466493113}
