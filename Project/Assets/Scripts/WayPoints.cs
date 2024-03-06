@@ -5,20 +5,30 @@ using UnityEngine;
 public class MovingPlatform : MonoBehaviour
 {
     [SerializeField] private GameObject[] waypoints;
-    private int firstWayPoint = 0;
     [SerializeField] private float platformSpeed = 2f;
+
+    private int currentWaypointIndex = 0;
+    private int direction = 1; // 1 for moving forward, -1 for moving backward
 
     // Update is called once per frame
     void Update()
     {
-        if (Vector2.Distance(waypoints[firstWayPoint].transform.position, transform.position) < .1f)
+        // Move the platform towards the current waypoint
+        transform.position = Vector2.MoveTowards(transform.position, waypoints[currentWaypointIndex].transform.position, Time.deltaTime * platformSpeed);
+
+        // Check if the platform has reached the current waypoint
+        if (Vector2.Distance(transform.position, waypoints[currentWaypointIndex].transform.position) < 0.01f)
         {
-            firstWayPoint++;
-            if (firstWayPoint >= waypoints.Length)
+            // Move to the next waypoint based on the direction
+            currentWaypointIndex += direction;
+
+            // If we reach the end or start of the waypoints array, switch direction
+            if (currentWaypointIndex >= waypoints.Length || currentWaypointIndex < 0)
             {
-                firstWayPoint = 0;
+                direction *= -1;
+                currentWaypointIndex += direction * 2; // Skip the current waypoint to avoid stopping at it
             }
         }
-        transform.position = Vector2.MoveTowards(transform.position, waypoints[firstWayPoint].transform.position, Time.deltaTime * platformSpeed);
     }
 }
+
