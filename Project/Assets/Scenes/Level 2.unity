@@ -125633,6 +125633,7 @@ GameObject:
   - component: {fileID: 1489404810}
   - component: {fileID: 1489404812}
   - component: {fileID: 1489404813}
+  - component: {fileID: 1489404814}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -125728,7 +125729,7 @@ Transform:
   m_GameObject: {fileID: 1489404800}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -72.08, y: -46.999, z: 0}
+  m_LocalPosition: {x: -72.08, y: -46.94, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -126330,6 +126331,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1489404814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489404800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40b68b5f349c8af4aa179cd0a480d480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minHeight: -50
+  playerLife: {fileID: 1489404808}
+  restartDelay: 2
 --- !u!4 &1496302614 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8409056720176314931, guid: 7729c0318d6c9784087b1327dc51fdc1, type: 3}

@@ -23,14 +23,14 @@ public class PlayerLife : MonoBehaviour
 
     }
 
-    private void PlayerDeath()
+    public void PlayerDeath()
     {
         DeathSound.Play();
         rb.bodyType = RigidbodyType2D.Static;
         animator.SetTrigger("Death");
     }
 
-    private void Restart()
+    public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
