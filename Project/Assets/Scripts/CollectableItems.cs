@@ -44,4 +44,9 @@ public class CollectableItems : MonoBehaviour
         yield return new WaitForSeconds(5f); // Wait for 5 seconds
         playerMovement.SetPowerUp(false); // Deactivate power-up after 5 seconds
     }
+
+    public int GetHealth()
+    {
+        return health;
+    }
 }
