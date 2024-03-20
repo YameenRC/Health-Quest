@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Margarine
 --- !u!222 &113193070
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -406,7 +406,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Lard
 --- !u!222 &210497362
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -485,7 +485,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Butter
 --- !u!222 &652869895
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -656,7 +656,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Olive oil
 --- !u!222 &828407732
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -767,7 +767,7 @@ MonoBehaviour:
   - {fileID: 1207219308}
   - {fileID: 1934140711}
   - {fileID: 1589821148}
-  correctAnswerButton: {fileID: 1589821148}
+  correctAnswerButton: {fileID: 129471799}
   correctColor: {r: 0, g: 1, b: 0, a: 1}
   wrongColor: {r: 1, g: 0, b: 0, a: 1}
   delayBeforeLoading: 3
@@ -1421,7 +1421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.20392157}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1653,10 +1653,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Your Character is going on a journey to live a better life and to create
-    better decisions for himself. You must help him create the best choices so he
-    can develop new and healthy habits. \n\nQuestion 1: What is the healthiest option?
-    \n"
+  m_Text: "Your character has started to learn how to cook and wants to meal prep,
+    however he wants to know which ingredients are healthy substitutes so he can
+    enjoy his meals with flavour.\n\nQuestion 7: Which of the following is a source
+    of healthy fats? \n"
 --- !u!222 &2139212561
 CanvasRenderer:
   m_ObjectHideFlags: 0

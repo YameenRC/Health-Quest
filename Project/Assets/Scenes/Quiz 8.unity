@@ -179,7 +179,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5ca0156ec2a9d7e46a06291ee0ac48f4, type: 3}
-    m_FontSize: 10
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -190,8 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A plate half-filled with vegetables, one quarter with lean protein, and
-    one quarter with whole grains.
+  m_Text: Working without breaks or time off
 --- !u!222 &113193070
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -237,8 +236,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -156.6, y: -33.886612}
-  m_SizeDelta: {x: 271.21, y: 56.2268}
+  m_AnchoredPosition: {x: -146, y: -37}
+  m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &129471799
 MonoBehaviour:
@@ -396,7 +395,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5ca0156ec2a9d7e46a06291ee0ac48f4, type: 3}
-    m_FontSize: 15
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -407,7 +406,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Only fruits and vegetables.
+  m_Text: Engaging in regular social activities
 --- !u!222 &210497362
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -475,7 +474,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5ca0156ec2a9d7e46a06291ee0ac48f4, type: 3}
-    m_FontSize: 15
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -486,7 +485,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ' Fast food and soda.'
+  m_Text: Ignoring your emotions
 --- !u!222 &652869895
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -657,7 +656,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A large portion of meat and little to no vegetables.
+  m_Text: ' Isolating yourself from friends and family'
 --- !u!222 &828407732
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -768,7 +767,7 @@ MonoBehaviour:
   - {fileID: 1207219308}
   - {fileID: 1934140711}
   - {fileID: 1589821148}
-  correctAnswerButton: {fileID: 1589821148}
+  correctAnswerButton: {fileID: 1207219308}
   correctColor: {r: 0, g: 1, b: 0, a: 1}
   wrongColor: {r: 1, g: 0, b: 0, a: 1}
   delayBeforeLoading: 3
@@ -824,8 +823,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 137, y: -33.887}
-  m_SizeDelta: {x: 250, y: 56.227}
+  m_AnchoredPosition: {x: 137, y: -37}
+  m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1207219308
 MonoBehaviour:
@@ -1165,8 +1164,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -156.6, y: -101.95}
-  m_SizeDelta: {x: 271.21, y: 60.1}
+  m_AnchoredPosition: {x: -147, y: -107}
+  m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1589821148
 MonoBehaviour:
@@ -1484,8 +1483,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 137, y: -101.95}
-  m_SizeDelta: {x: 250, y: 60.1}
+  m_AnchoredPosition: {x: 137, y: -107}
+  m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1934140711
 MonoBehaviour:
@@ -1654,10 +1653,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Your Character is going on a journey to live a better life and to create
-    better decisions for himself. You must help him create the best choices so he
-    can develop new and healthy habits. \n\nQuestion 1: What makes a balanced healthy
-    meal? \n"
+  m_Text: "Despite bettering their life and habits, your character still feels down.
+    they needs advice on how not to just focus on physical habits but their overall
+    well-being.\n\nQuestion 9: Which of these is beneficial for mental health and
+    well-being? \n"
 --- !u!222 &2139212561
 CanvasRenderer:
   m_ObjectHideFlags: 0

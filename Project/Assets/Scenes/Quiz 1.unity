@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Only exercising on weekends
 --- !u!222 &113193070
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -370,8 +370,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 3.6308975, y: 1}
+  m_SizeDelta: {x: -7.2618, y: -4.8412}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &210497361
 MonoBehaviour:
@@ -395,7 +395,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5ca0156ec2a9d7e46a06291ee0ac48f4, type: 3}
-    m_FontSize: 15
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -406,7 +406,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: ' 30 minutes per month of any intensity'
 --- !u!222 &210497362
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -449,8 +449,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 3.6309, y: -0}
+  m_SizeDelta: {x: -7.2618, y: -4.8412}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &652869894
 MonoBehaviour:
@@ -474,7 +474,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5ca0156ec2a9d7e46a06291ee0ac48f4, type: 3}
-    m_FontSize: 15
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -485,7 +485,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Exercise is optional and not necessary
 --- !u!222 &652869895
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -620,8 +620,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 2.476, y: -0}
+  m_SizeDelta: {x: -4.952, y: -9.904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &828407731
 MonoBehaviour:
@@ -645,7 +645,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5ca0156ec2a9d7e46a06291ee0ac48f4, type: 3}
-    m_FontSize: 15
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -656,7 +656,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 150 minutes of moderate-intensity
 --- !u!222 &828407732
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -767,7 +767,7 @@ MonoBehaviour:
   - {fileID: 1207219308}
   - {fileID: 1934140711}
   - {fileID: 1589821148}
-  correctAnswerButton: {fileID: 1589821148}
+  correctAnswerButton: {fileID: 129471799}
   correctColor: {r: 0, g: 1, b: 0, a: 1}
   wrongColor: {r: 1, g: 0, b: 0, a: 1}
   delayBeforeLoading: 3
@@ -1421,7 +1421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.20392157}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1653,10 +1653,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Your Character is going on a journey to live a better life and to create
-    better decisions for himself. You must help him create the best choices so he
-    can develop new and healthy habits. \n\nQuestion 1: What is the healthiest option?
-    \n"
+  m_Text: "Your character is very weak and has no energy throughout the day. They
+    want to start exercising to break lazy habits and to get stronger. \n\nQuestion
+    2: How much exercise is recommended for adults each week?\n"
 --- !u!222 &2139212561
 CanvasRenderer:
   m_ObjectHideFlags: 0
