@@ -77263,7 +77263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 703122576}
   playerLife: {fileID: 1489404808}
-  timeDuration: 10
+  timeDuration: 120
   restartDelay: 3
 --- !u!114 &703122576
 MonoBehaviour:
