@@ -17,7 +17,7 @@ You will collect healthy/non-healthy items as well as power ups to help you get 
 
    
 ## Game Access
-
+https://yameenrc.github.io/Health-Quest/Build/
 To play the game, visit the following link:
 https://YameenRC.github.io/HealthQuest/Build/index.html
 
