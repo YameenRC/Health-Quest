@@ -268,7 +268,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   showPauseMenu: {fileID: 447488442}
   showHealthBar: {fileID: 287821493}
-  showCoins: {fileID: 1337691395}
   settingsPanel: {fileID: 578367179}
   settingsBTN: {fileID: 1454382601}
 --- !u!1001 &27366380

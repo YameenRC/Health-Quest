@@ -71,5 +71,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinishGameScreen.unity
     guid: 6e19b6ab58dd642458f25348ceb79b50
+  - enabled: 1
+    path: Assets/Scenes/Sources.unity
+    guid: 65ec7a7d39df1354a92a58b1a70e1d4a
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

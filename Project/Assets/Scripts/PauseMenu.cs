@@ -8,9 +8,7 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool isGamePaused = false;
     public GameObject showPauseMenu;
-
     public GameObject showHealthBar;
-    public GameObject showCoins;
     public GameObject settingsPanel;
     public GameObject settingsBTN;
 
@@ -50,7 +48,7 @@ public class PauseMenu : MonoBehaviour
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         showPauseMenu.SetActive(true);
-        showHealthBar.SetActive(false);
+        showHealthBar.SetActive(true);
         Time.timeScale = 0f; // freezes time
         isGamePaused = true;
     }
