@@ -12,6 +12,19 @@ public class PauseMenu : MonoBehaviour
     public GameObject settingsPanel;
     public GameObject settingsBTN;
 
+    public AudioClip clickSound;
+    public float delay = 0.5f; // Delay in seconds, adjust as needed
+    private AudioSource audioSource;
+
+    void Start()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        // Get the audio source from this game object or its children
+        // Make sure there's an AudioSource component attached to the same GameObject
+        audioSource = GetComponent<AudioSource>();
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.P)) // trigger to show pause menu , checks if settings menu already pressed
@@ -60,6 +73,9 @@ public class PauseMenu : MonoBehaviour
 
     public void loadMainMenu() // loads main menu if main menu button pressed
     {
+        // Ensure the cursor is visible and unlocked before going to the main menu.
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
         resumeGame();
         SceneManager.LoadScene("Start");
     }
@@ -72,7 +88,26 @@ public class PauseMenu : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        // Play the click sound
+        if (audioSource != null && clickSound != null)
+        {
+            audioSource.PlayOneShot(clickSound);
+        }
         resumeGame();
+
+        // Start the coroutine to restart the scene after a delay
+        StartCoroutine(RestartAfterDelay(SceneManager.GetActiveScene().name));
+
+    }
+
+    IEnumerator RestartAfterDelay(string sceneName)
+    {
+        // Wait for the specified delay, during which the click sound can play
+        yield return new WaitForSeconds(delay);
+
+        // Now the sound has had time to play, resume the game
+
+        // Load the scene
+        SceneManager.LoadScene(sceneName);
     }
 }

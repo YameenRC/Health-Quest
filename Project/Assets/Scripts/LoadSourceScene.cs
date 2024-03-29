@@ -11,6 +11,8 @@ public class LoadSourceScene : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
         // Get the audio source from this game object or its children
         // Make sure there's an AudioSource component attached to the same GameObject
         audioSource = GetComponent<AudioSource>();

@@ -14,6 +14,8 @@ public class QuizManager : MonoBehaviour
 
     void Start()
     {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
         foreach (Button btn in answerButtons)
         {
             btn.onClick.AddListener(() => Answer(btn));
