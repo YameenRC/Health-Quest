@@ -12,6 +12,15 @@ You will collect healthy/non-healthy items as well as power ups to help you get 
 - **P:** Press P to pause the game
 
 ### Gameplay
+1. **Capture the flag:** Your primary objective is to get to the flag while collecting as much fruit and power ups as you can.
+
+2. **Time Limit:** You have a limited time for each level, which is represented on the screen. Running out of time will restart the level.
+
+3. **Progression:** The game is divided into multiple levels, each with its own unique traps and layout.
+
+4. **Traps** Avoid Traps as they will kill if you collide with them resulting in restarting the level.
+
+5. **Collectables** Beware of which items you collect as some could be harmful and some could help you get stronger and faster.
 
 
 
