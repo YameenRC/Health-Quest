@@ -23,4 +23,9 @@ To play the game, visit the following link: https://yameenrc.github.io/Health-Qu
 ## Assets
 
 Here is a list of assets I used in the development of the game:
+- Character Assets: https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360
+- Free UI Click Sound Pack: https://assetstore.unity.com/packages/audio/sound-fx/free-ui-click-sound-pack-244644
+- FREE Casual Game SFX Pack: https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116
+- Background Music: https://assetstore.unity.com/packages/audio/music/casual-game-bgm-5-135943
+- Free Music Tracks: https://assetstore.unity.com/packages/audio/music/free-music-tracks-for-games-156413
  
