@@ -2816,7 +2816,7 @@ MonoBehaviour:
   - {fileID: 1409884548}
   musicAudioSources:
   - {fileID: 402504215}
-  PauseMenu: {fileID: 0}
+  PauseMenu: {fileID: 1033927997}
 --- !u!1 &1373088661
 GameObject:
   m_ObjectHideFlags: 0
