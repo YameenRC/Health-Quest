@@ -12,6 +12,15 @@ You will collect healthy/non-healthy items as well as power ups to help you get 
 - **P:** Press P to pause the game
 
 ### Gameplay
+1. **Capture the flag:** Your primary objective is to get to the flag while collecting as much fruit and power ups as you can.
+
+2. **Time Limit:** You have a limited time for each level, which is represented on the screen. Running out of time will restart the level.
+
+3. **Progression:** The game is divided into multiple levels, each with its own unique traps and layout.
+
+4. **Traps** Avoid Traps as they will kill if you collide with them resulting in restarting the level.
+
+5. **Collectables** Beware of which items you collect as some could be harmful and some could help you get stronger and faster.
 
 
 
@@ -23,4 +32,9 @@ To play the game, visit the following link: https://yameenrc.github.io/Health-Qu
 ## Assets
 
 Here is a list of assets I used in the development of the game:
+- Character Assets: https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360
+- Free UI Click Sound Pack: https://assetstore.unity.com/packages/audio/sound-fx/free-ui-click-sound-pack-244644
+- FREE Casual Game SFX Pack: https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116
+- Background Music: https://assetstore.unity.com/packages/audio/music/casual-game-bgm-5-135943
+- Free Music Tracks: https://assetstore.unity.com/packages/audio/music/free-music-tracks-for-games-156413
  
