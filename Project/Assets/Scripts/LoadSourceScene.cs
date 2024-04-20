@@ -28,7 +28,7 @@ public class LoadSourceScene : MonoBehaviour
         }
 
         // Start the coroutine to load the scene
-        StartCoroutine(LoadSceneAfterDelay("Sources")); // Replace "Sources" with your scene name
+        StartCoroutine(LoadSceneAfterDelay("Sources")); 
     }
 
     IEnumerator LoadSceneAfterDelay(string sceneName)

@@ -56,7 +56,7 @@ public class PauseMenu : MonoBehaviour
         isGamePaused = false;
     }
 
-    void pauseGame() // switches visibility of oxygen bar and health bar, makes pause menu visible
+    void pauseGame() // makes pause menu visible and freeze time
     {
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;

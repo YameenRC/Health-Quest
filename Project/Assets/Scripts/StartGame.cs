@@ -7,12 +7,12 @@ public class StartGame : MonoBehaviour
 {
     void Start()
     {
-        Cursor.visible = true;
+        Cursor.visible = true; // makes the cursor visible
         Cursor.lockState = CursorLockMode.None;
     }
     public void LoadGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //loads the next scene in the build index
     }
 
 }

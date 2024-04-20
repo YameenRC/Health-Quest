@@ -70,10 +70,10 @@ public class CollectableItems : MonoBehaviour
     private void AddHeartIcon()
     {
         GameObject newHeart = Instantiate(heartPrefab, heartsContainer);
-        // Assuming all hearts are the same size and you want a small space between them
-        float offsetX = 30; // Adjust this value to move the heart rightward to your desired position
-        float offsetY = -20; // Adjust this value to move the heart downward to your desired position
-        float spacing = 10; // Adjust the spacing between hearts as needed
+        // small space between the hearts
+        float offsetX = 30; // Adjust this value to move the heart rightward to position
+        float offsetY = -20; // Adjust this value to move the heart downward to position
+        float spacing = 10; // Adjust the spacing between hearts 
 
         // Calculate the position for the new heart
         float heartWidth = newHeart.GetComponent<RectTransform>().sizeDelta.x;
@@ -84,7 +84,7 @@ public class CollectableItems : MonoBehaviour
         heartIcons.Add(newHeart);
     }
 
-    public int GetHealth()
+    public int GetHealth() // Returns Health
     {
         return health;
     }

@@ -5,17 +5,18 @@ using System.Collections;
 
 public class QuizManager : MonoBehaviour
 {
-    public Button[] answerButtons; // Assign all your answer buttons here
-    public Button correctAnswerButton; // Assign the correct answer button here
+    public Button[] answerButtons; // Assign answer buttons
+    public Button correctAnswerButton; // Assign correct answer button 
     public Color correctColor = Color.green; // Color for correct answer
     public Color wrongColor = Color.red; // Color for wrong answer
     public float delayBeforeLoading = 5f; // Time delay for loading scenes
     private bool hasAnswered = false; // To check if an answer has been given
 
-    void Start()
+    void Start() // Start is called before the first frame update.
+    // Used for component initialization.
     {
         Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
+        Cursor.lockState = CursorLockMode.None; 
         foreach (Button btn in answerButtons)
         {
             btn.onClick.AddListener(() => Answer(btn));
@@ -62,11 +63,11 @@ public class QuizManager : MonoBehaviour
         colors.disabledColor = color; // Ensure the disabled color is also set
         btn.colors = colors;
 
-        // Optionally, you can also change the color of the button's image component, if it has one:
+        // change the color of the button's image component, if it has one:
         Image btnImage = btn.GetComponent<Image>();
         if (btnImage != null)
         {
-            btnImage.color = color; // Change the button's image to the desired color
+            btnImage.color = color; // Change the button's image to the any color
         }
     }
 
